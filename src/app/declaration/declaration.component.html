@@ -1,0 +1,9 @@
+<p>
+  declaration works!
+</p>
+<div *ngIf="posts">
+  <div *ngFor="let post of posts.data">
+    {{post.description}}<br>
+    <small>{{post.project_name}}</small>
+  </div>
+</div>

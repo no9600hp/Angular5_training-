@@ -13,6 +13,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { PriceComponent } from './price/price.component';
+import { DeclarationComponent } from './declaration/declaration.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { PriceComponent } from './price/price.component';
     AppComponent,
     HomeComponent,
     AboutComponent,
-    PriceComponent
+    PriceComponent,
+    DeclarationComponent
   ],
   imports: [
     BrowserModule,
